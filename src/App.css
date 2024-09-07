@@ -1,0 +1,84 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.App {
+  background-color: #833471;
+  background-image: url('/b.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-attachment: fixed; /* Keeps the background image fixed */
+  min-height: 100vh;
+  overflow-y: scroll; /* Enables vertical scrolling */
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.resume-form-container {
+  background: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(46, 37, 37, 0.1);
+  height: auto;
+  padding: 20px;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.resume-preview-container {
+  background: rgba(255, 255, 255, 0.8);
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-preview-container {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .resume-form-container, .resume-preview-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .resume-preview {
+    width: 100%;
+    min-height: auto;
+    padding: 10px;
+  }
+}
+
+h1 {
+  margin-left: 20px;
+  color: rgb(234, 234, 234);
+  font-family: 'Times New Roman', Times, serif;
+}

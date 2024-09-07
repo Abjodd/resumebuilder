@@ -1,0 +1,88 @@
+/* Login.css */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(./ima.jpg) no-repeat center center fixed;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #content_container {
+    background: rgba(255, 255, 255, 0.518); /* Add transparency to see the background image */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  #form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #form_header_container {
+    margin-bottom: 20px;
+  }
+  
+  #form_header {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(20 20 134);
+    text-align: center;
+  }
+  
+  #form_content_container {
+    width: 100%;
+  }
+  
+  #form_content_inner_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #fffefe;
+    color: black;
+  }
+  
+  #button_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background: rgb(20 20 134);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 48%;
+    box-sizing: border-box;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #c7e40a;
+  }
+  
+  button:active {
+    background: #eb0303;
+  }
+  

@@ -1,0 +1,87 @@
+/* ResumePreview.css */
+
+@media print {
+  .resume-preview {
+    page-break-inside: avoid;
+  }
+  .page-break-space {
+    display: block;
+    page-break-before: always;
+  }
+  .page-break-space:first-child {
+    display: none;
+  }
+}
+
+.resume-preview {
+  width: 210mm; /* A4 width */
+  min-height: auto; /* A4 height */
+  padding: 20mm;
+  margin: 0 auto;
+  background: white;
+  color: #000;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensure padding is included in total width/height */
+}
+
+.resume-preview header {
+  border-bottom: 2px solid #333; /* Bottom border for header */
+  padding-bottom: 10px; /* Padding bottom for spacing */
+  margin-bottom: 20px; /* Margin bottom for spacing */
+  color: #333; /* Darker text color for better readability */
+}
+
+.resume-preview h1 {
+  color: #000;
+  font-size: 2.0rem;
+  margin-bottom: 5px;
+}
+
+.resume-preview p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.resume-preview section {
+  margin-bottom: 20px;
+}
+
+.resume-preview h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd; /* Bottom border for section headers */
+  padding-bottom: 5px; /* Padding bottom for spacing */
+  color: #333; /* Darker text color for better readability */
+}
+
+.resume-preview p {
+  font-size: 1rem;
+  color: #555; /* Lighter text color for body text */
+  line-height: 1.5; /* Better line spacing */
+  margin-bottom: 10px;
+}
+
+.download-button {
+  margin-left: 10px;
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.button {
+  margin-left: 10px;
+}

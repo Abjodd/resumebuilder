@@ -1,0 +1,122 @@
+/* ResumeForm.css */
+
+/* .resume-form-container {
+
+
+
+  background: transparent;
+
+  padding: 20px;
+
+  border: 1px solid #2430b6;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(46, 37, 37, 0.1);
+
+
+  height: 900px;
+  padding: 20px;
+  width: 600px;
+  margin-left: 50px;
+  /* Adjust to move right or left */
+  /* margin-top: 10px; */
+
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+ 
+  
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 1000px;
+  padding: 20px;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  height: 60px;
+}
+
+.form-group label {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+  color: black;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group textarea {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 80px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.form-group textarea::placeholder {
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-form-container {
+    padding: 15px;
+  }
+
+  h2 {
+  
+    font-size: 20px;
+  }
+
+  .form-group textarea {
+    font-size: 20px;
+  }
+}
+
+body {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+input{
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 30px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+  
+}
